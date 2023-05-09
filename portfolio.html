@@ -5,55 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portofoliu</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <header class="global-header">
-      <a class="title" href="index.html"
-        ><span class="Flogo">Web</span><span class="StLogo">Studio</span></a
-      >
-      <nav class="navigation">
-        <ul>
-          <li><a href="index.html">Studio</a></li>
-          <li><a href="portfolio.html" >Portfolio</a></li>
-          <li><a href="contacts.html" >Contacts</a>
-      </nav>
-      <ul class="contact-info">
-        <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li>
-          <a href="tel:+12127724150">+1 212-772-4150</a>
-        </li>
-      </ul>
+    <header class="global-header portfolio ">
+      <div class="container">
+        <nav class="navigation">
+          <a class="title" href="index.html"
+            ><span class="Flogo">Web</span>Studio</a
+          >
+
+          <ul>
+            <li><a href="index.html">Studio</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+          </ul>
+          <div class="contact-info">
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a href="tel:+12127724150">+1 212-772-4150</a>
+          </div>
+        </nav>
+      </div>
     </header>
     <main>
-      <section>
+      <section class="btn-section">
+        <div class="container">
         <nav class="portfolio-nav">
           <ul>
-            <li><button>All</button></li>
-            <li><button>Web-sites</button></li>
-            <li><button>Apps</button></li>
-            <li><button>Design</button></li>
-            <li><button>Marketing</button></li>
+            <li><button class="btn port-btn" type="button ">All</button></li>
+            <li><button class="btn port-btn" type="button">Web-sites </button></li>
+            <li><button class="btn port-btn" type="button">Apps</button></li>
+            <li><button class="btn port-btn" type="button">Design</button></li>
+            <li><button class="btn port-btn" type="button">Marketing</button></li>
           </ul>
         </nav>
-      </section>
+        </div>
+      </section class=section>
       <section class="portfolio-section">
-        <ul>
+        <div class="container">
+        <ul>          
           <li>
             <img src="./images/portfolio1.jpg" alt="WebSite" width="370px" />
+            <div class="portfolio-cards">
             <h3>Technoduck</h3>
             <p>Web-site</p>
+            </div>
           </li>
+          
           <li>
             <img
               src="./images/portfolio2.jpg"
               alt="Basketball players"
               width="370px"
             />
+            <div class="portfolio-cards">
             <h3>Poster New Orlean vs Golden Star</h3>
-            <p>Design</p>
+            <p>Design</p> </div>
           </li>
           <li>
             <img
@@ -61,33 +73,42 @@
               alt="Logo Restaurant"
               with="370px"
             />
+            <div class="portfolio-cards">
             <h3>Seafood Restaurant</h3>
             <p>Apps</p>
+            </div>
           </li>
           <li>
             <img src="./images/portfolio4.jpg" alt="headphones" width="370px" />
+            <div class="portfolio-cards">
             <h3>Project Prime</h3>
             <p>Marketing</p>
+            </div>
           </li>
           <li>
             <img src="./images/portfolio5.jpg" alt="boxes" width="370px" />
+           <div class="portfolio-cards">
             <h3>Project Boxes</h3>
             <p>Apps</p>
+           </div>
           </li>
-          <li>
+          <li>          
             <img src="./images/portfolio6.jpg" alt="Monitor" width="370px" />
+            <div class="portfolio-cards">
             <h3>Inspiration has no Borders</h3>
-            <p>Web-site</p>
+            <p>Web-site</p> </div>
           </li>
           <li>
             <img src="./images/portfolio7.jpg" alt="A book" width="370px" />
+            <div class="portfolio-cards">
             <h3>Limited Edition</h3>
-            <p>Design</p>
+            <p>Design</p> </div>
           </li>
           <li>
             <img src="./images/portfolio8.jpg" alt="Talisman" width="370px" />
+            <div class="portfolio-cards">
             <h3>Project LAB</h3>
-            <p>Marketing</p>
+            <p>Marketing</p> </div>
           </li>
           <li>
             <img
@@ -95,17 +116,20 @@
               alt="Someone is working on a laptop"
               width="370px"
             />
+            <div class="portfolio-cards">
             <h3>Growing Business</h3>
-            <p>Apps</p>
+            <p>Apps</p> </div>
           </li>
         </ul>
+        </div>
       </section>
     </main>
-    <footer class="footer-section">
+   <footer class="footer-section ">
+       <div class="container ">
       <a class="title" href="index.html"
         ><span class="SLogo">Web</span><span class="TLogo">Studio</span></a
       >
-      <address class="contact-info">
+      <address class="contact-info-footer ">
         <ul>
           <li>
             <a class="map" href="695 Park Ave, NY 10065, USA"
@@ -113,14 +137,16 @@
             >
           </li>
           <li>
-            <a class="contact-info" href="mailto:info@devstudio.com"
+            <a class="contact-info-footer" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="contact-info" href="tel:+12127724150">+1 212-772-4150</a>
+            <a class="contact-info-footer" href="tel:+12127724150">+1 212-772-4150</a>
+            </div>
           </li>
         </ul>
+       
       </address>
     </footer>
   </body>
